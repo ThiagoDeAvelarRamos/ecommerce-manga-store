@@ -1,3 +1,4 @@
+@import '../variables.css';
 /* header.css */
 .header {
     background-color:#050a30;
@@ -33,7 +34,7 @@
 
 .nav-center a:hover, 
 .nav-right a:hover {
-    color: #7c3aed;
+    color: var(--cor-hover-padrao);
 }
 
 .nav-right img {
