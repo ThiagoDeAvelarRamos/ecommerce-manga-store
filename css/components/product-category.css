@@ -1,7 +1,7 @@
 @import '../variables.css';
 .categories-section {
     display: flex;
-    padding: 40px;
+    padding: 40px 20px;
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;

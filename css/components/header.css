@@ -3,10 +3,10 @@
 .header {
     background-color:#050a30;
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40%);
+    width: calc(100% - 210px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
