@@ -1,6 +1,6 @@
 /* header.css */
 .header {
-    background-color:#050a30;
+    background-color: var(--cor-fundo-padrao);
     position: fixed;
     top: 60px;
     left: 50%;

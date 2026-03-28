@@ -1,6 +1,6 @@
 /* hero.css */
 .hero-section {
-    background: url('../../images/banners/hero-background.jpg') no-repeat center;
+    background: url(../../images/banners/hero-background.jpg) no-repeat center;
     background-size: cover;
 
     height: 500px;
@@ -23,7 +23,7 @@
     padding: 20px;
     border-radius: 25px;
     text-align: center;
-    background-color: #050a30;
+    background-color: var(--cor-fundo-padrao);
     opacity: 0.9;
 }
 

@@ -1,1 +1,70 @@
 /* product-grid.css */
+.card {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--cor-texto-padrao);
+}
+
+.card-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: var(--cor-texto-padrao);
+}
+
+.top1-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cta-grop {
+    display: flex;
+    gap: 10px;
+}
+
+.top1 {
+    grid-area: top1;
+    background-color: var(--cor-fundo-padrao);
+}
+.top2 {
+    grid-area: top2;
+    background-color: var(--cor-fundo-padrao);
+}
+.midL {
+    grid-area: midL;
+    background-color: var(--cor-fundo-padrao);
+}
+.midR {
+    grid-area: midR;
+    background-color: var(--cor-fundo-padrao);
+}
+.bottomL {
+    grid-area: bottomL;
+    background-color: var(--cor-fundo-padrao);
+}
+.bottomR {
+    grid-area: bottomR;
+    background-color: var(--cor-fundo-padrao);
+}
+.grid-section {
+    display: grid;
+    grid-template-areas:
+        "top1 top1 top2 top2"
+        "top1 top1 midL midR"
+        "bottomL bottomL midL bottomR";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    gap: 30px;
+}
