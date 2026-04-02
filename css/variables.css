@@ -2,8 +2,9 @@
 
 :root {
     --fonte-principal: 'Ubuntu', sans-serif;
-    --cor-texto-padrao: #ededed;
-    --cor-texto-header: #333333;
+    --cor-texto-padrao: #c2d3ff;
+    --cor-titulo-padrao: #00d7c0;
     --cor-hover-padrao: #00e676;
-    --cor-fundo-padrao: #050a30
+    --cor-fundo-padrao: #050a30;
+    --cor-fundo-footer: #070a1d;
 }

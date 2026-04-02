@@ -4,20 +4,20 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .card-title {
     font-size: 1.25rem;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: var(--cor-texto-padrao);
 }
 
 .card-description {
     font-size: 1.5rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: var(--cor-texto-padrao);
 }
 
@@ -31,7 +31,7 @@
 
 .cta-grop {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .top1 {
@@ -65,6 +65,6 @@
         "top1 top1 midL midR"
         "bottomL bottomL midL bottomR";
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 300px);
-    gap: 30px;
+    grid-template-rows: repeat(3, 18.75rem);
+    gap: 1.875rem;
 }

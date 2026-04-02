@@ -2,11 +2,11 @@
 .header {
     background-color: var(--cor-fundo-padrao);
     position: fixed;
-    top: 60px;
+    top: 3.75rem;
     left: 50%;
     transform: translate(-50%);
     width: calc(100% - 210px);
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@
 .nav-center a, 
 .nav-right a {
     font-size: 1.25rem;
-    color: var(--cor-texto-header);
+    color: var(--cor-titulo-padrao);
 }
 
 .nav-center a:hover, 
