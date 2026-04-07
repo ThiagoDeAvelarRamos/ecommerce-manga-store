@@ -21,7 +21,7 @@
     color: var(--cor-texto-padrao);
 }
 
-.top1-content{
+.top1-content {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -38,26 +38,32 @@
     grid-area: top1;
     background-color: var(--cor-fundo-padrao);
 }
+
 .top2 {
     grid-area: top2;
     background-color: var(--cor-fundo-padrao);
 }
+
 .midL {
     grid-area: midL;
     background-color: var(--cor-fundo-padrao);
 }
+
 .midR {
     grid-area: midR;
     background-color: var(--cor-fundo-padrao);
 }
+
 .bottomL {
     grid-area: bottomL;
     background-color: var(--cor-fundo-padrao);
 }
+
 .bottomR {
     grid-area: bottomR;
     background-color: var(--cor-fundo-padrao);
 }
+
 .grid-section {
     display: grid;
     grid-template-areas:
@@ -67,4 +73,32 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 18.75rem);
     gap: 1.875rem;
+}
+
+@media (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "top1 top1"
+            "top2 top2"
+            "midL midR"
+            "midL bottomR"
+            "bottomL bottomL";
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .top1 {
+        min-height: 500px;
+    }
+
+    .midL {
+        min-height: 370px;
+    }
+
+    .top2, .bottomL {
+        min-height: 190px;
+    }
+
 }

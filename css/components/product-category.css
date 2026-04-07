@@ -56,3 +56,9 @@
     background: url(../../images/products/Card.png) no-repeat center;
     background-size: cover;
 }
+
+@media (max-width: 500px) {
+    .categories-cards {
+        width: 100%;
+    }
+}

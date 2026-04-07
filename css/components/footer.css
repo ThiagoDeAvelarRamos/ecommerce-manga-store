@@ -87,14 +87,14 @@
     list-style: none;
 }
 
+.social-list li a:hover {
+    opacity: 0.7;
+}
+
 .social-list a img {
     width: 22px;
     height: 22px;
     filter: invert(95%);
-}
-
-.social-list li a:hover {
-    opacity: 0.7;
 }
 
 .footer-legal {
